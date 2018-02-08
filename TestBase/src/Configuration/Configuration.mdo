@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b71475d-1806-4d38-ad97-00689eb4523b">
+  <name>УчетНаСкладе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет на складе</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="2f138ee0-22c0-4bea-9cdf-14ecc869b46d"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="163c2973-702b-4103-a4c1-85f5c705091c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="18f10d62-40f0-4df7-a1aa-4982bfba47cf"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="e85aa4fc-7b0a-443c-8ccb-5db7a218ec32"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="fef6eb01-7ba5-480a-a655-0587facd8a88"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="dc075624-7249-49e9-96df-795c6dc17016"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.11</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor></vendor>
+  <version></version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
+  <languages uuid="bc602d7d-c33e-43b4-8b8d-af98a3185fc2">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.СкладскойУчет</subsystems>
+  <roles>Role.Снабженец</roles>
+  <commonModules>CommonModule.Сервер</commonModules>
+  <eventSubscriptions>EventSubscription.ПриходныйОрдерОбработкаПроведения</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.РасходныйОрдерОбработкаПроведения</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПередЗаписьюПОиРО</eventSubscriptions>
+  <definedTypes>DefinedType.ОпределяемыйТип</definedTypes>
+  <constants>Constant.КонтрольОстатков</constants>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.ГруппыСкладов</catalogs>
+  <documents>Document.ПриходныйОрдер</documents>
+  <documents>Document.РасходныйОрдер</documents>
+  <accumulationRegisters>AccumulationRegister.Товары</accumulationRegisters>
+</mdclass:Configuration>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d76f2d9-9048-46e5-ac53-910085338d8b">
+  <name>ПриходныйОрдерОбработкаПроведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приходный ордер обработка проведения</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>DocumentObject.ПриходныйОрдер</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.Сервер.ПриходныйОрдерОбработкаПроведения</handler>
+</mdclass:EventSubscription>

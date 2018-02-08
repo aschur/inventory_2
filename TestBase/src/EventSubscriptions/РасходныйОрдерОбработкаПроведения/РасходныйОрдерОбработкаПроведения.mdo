@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b90af66d-b351-4135-a87a-37e0e5367883">
+  <name>РасходныйОрдерОбработкаПроведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расходный ордер обработка проведения</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>DocumentObject.РасходныйОрдер</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.Сервер.РасходныйОрдерОбработкаПроведения</handler>
+</mdclass:EventSubscription>

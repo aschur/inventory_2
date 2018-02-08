@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="868dd5ce-e293-43ef-aba3-42785ceaa1d6">
+  <name>ПередЗаписьюПОиРО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед записью ПО и РО</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>DocumentObject.ПриходныйОрдер</types>
+    <types>DocumentObject.РасходныйОрдер</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.Сервер.ПередЗаписьюПОиРОПередЗаписью</handler>
+</mdclass:EventSubscription>
